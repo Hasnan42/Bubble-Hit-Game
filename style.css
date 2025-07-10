@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #89feb0, #204233);
+}
+
+.heading_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 4px;
+}
+
+.gamebox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gamebox .main_box {
+  border: 2px solid black;
+  height: 70%;
+  width: 70%;
+  background: #f1fcdd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.gamebox .main_box .paneltop {
+  height: 70px;
+  background: #447a4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.gamebox .main_box .paneltop .hit {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.gamebox .main_box .paneltop .hit .hitbubble {
+  color: #191818;
+  border-radius: 20%;
+  background: #faf9f9;
+  padding: 9px;
+}
+.gamebox .main_box .paneltop .score {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.gamebox .main_box .paneltop .score .scorebubble {
+  color: #111010;
+  border-radius: 20%;
+  background: #fff;
+  padding: 9px;
+}
+.gamebox .main_box .paneltop .timer {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.gamebox .main_box .paneltop .timer .timerbubble {
+  color: #0d0d0d;
+  border-radius: 20%;
+  background: #fbf8f8;
+  padding: 9px;
+}
+.gamebox .panelbottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  padding: 18px;
+}
+.gamebox .panelbottom .bubble {
+  transition: transform 0.2s, background-color 0.2s;
+  width: 40px;
+  height: 40px;
+  background: rgb(72, 104, 72);
+  color: #fff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.gamebox .panelbottom .bubble:hover {
+  transform: scale(1.2);
+  background-color: #196b1f;
+  cursor: pointer;
+} /*# sourceMappingURL=style.css.map */
