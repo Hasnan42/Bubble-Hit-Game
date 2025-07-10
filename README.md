@@ -1,18 +1,26 @@
-# Bubble Hit Game
+# 🎯 Bubble Hit Game
 
-A fun bubble hitting game built with HTML, CSS, and JavaScript.  
-Click the bubbles that match the target number to earn points within the time limit!
+A fun and interactive bubble popping game built using **HTML**, **CSS**, and **JavaScript**.
 
-## How to Play
+## 💡 Features
 
-- You get a target number at the top.
-- Click the bubbles that match it.
-- Earn points before time runs out!
+- ✅ Random target number to match
+- ✅ Multiple bubbles with random numbers
+- ✅ Timer and score system
+- ✅ Smooth and responsive design
 
-## Features
+## 🚀 How to Play
 
-- Timer
-- Score tracking
-- Random numbers each round
+1️⃣ A random target number is shown at the top.  
+2️⃣ Click (pop) the bubbles that match this number.  
+3️⃣ Score points for each correct pop before the time runs out!  
+
+## 📁 Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+
+---
 
 **Author:** Hasnan Anwar
